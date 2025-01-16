@@ -27,7 +27,7 @@
          <div class="card-container">
             <!-- ★穴埋め★ リストレンダリングを利用する（selectedCardsの中身をcardに入れる） -->
             <div v-for="(card,index) in selectedCards" :key="index" class="card">
-            <!-- ★穴埋め★ imgタグのsrc属性に画像のパスをバインディングする -->
+               <!-- ★穴埋め★ imgタグのsrc属性に画像のパスをバインディングする -->
                <img :src="card.image" :alt="card.name" class="card-image" />
             </div>
          </div>
